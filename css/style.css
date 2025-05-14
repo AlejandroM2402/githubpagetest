@@ -1,0 +1,76 @@
+:root {
+    --naranja-vivo: #FFA500;
+    --naranja-oscuro: #e69500;
+    --blanco-puro: #FFFFFF;
+    --gris-claro: #F2F2F2;
+    --gris-texto: #333333;
+}
+
+body {
+    background-color: var(--blanco-puro);
+    color: var(--gris-texto);
+}
+
+.navbar {
+    background-color: var(--naranja-vivo);
+}
+
+.btn-primary {
+    background-color: var(--naranja-vivo);
+    border: none;
+    color: var(--blanco-puro);
+}
+
+.btn-primary:hover {
+    background-color: var(--naranja-oscuro);
+}
+
+.card {
+    border: 1px solid var(--gris-claro);
+    background-color: var(--blanco-puro);
+    color: var(--gris-texto);
+}
+
+.card-title {
+    color: var(--gris-texto);
+}
+
+.navbar-brand img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.img-galeria {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.eliminar-producto,
+.btn-danger {
+    background-color: var(--naranja-vivo);
+    border: none;
+    color: var(--blanco-puro);
+}
+
+.btn-agregar-carrito {
+    background-color: var(--naranja-vivo);
+    border: none;
+    color: var(--blanco-puro);
+}
